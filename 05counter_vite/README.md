@@ -1,8 +1,8 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>COUNTER PROJECT</h1>
+<h4>This project increases or decreases the value of the counter based on your choice and reflects the same change in the counter's value on the UI as well<h4>
+<h4>Tech stack:<br/>
+    HTMl<br/>
+    CSS<br/>
+    Javascript<br/>
+    React.js
+    </h4>
