@@ -9,14 +9,26 @@ function App() {
   let [counter,change_counter]=useState(7);
 
   const addValue=function (){
+
+    if(counter!=20){
     counter+=1;
     change_counter(counter);
     console.log("new value  "+counter)
+    }
+    else{
+      console.log("cant go beyond 20"+Math.random())
+    }
   }
   const decrease_Value=function (){
+
+    if(counter!=0){
     counter-=1;
-    change_counter(counter);
     console.log("new value  "+counter)
+    change_counter(counter);
+    }
+    else{
+      console.log("can't go below zero"+Math.random())
+    }
   }
 
   return (
